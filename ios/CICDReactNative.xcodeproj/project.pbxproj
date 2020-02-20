@@ -20,6 +20,7 @@
 		2DFD6F2E8B36A453FC971E84 /* libPods-CICDReactNativeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E457DCF9366558C7F29401CC /* libPods-CICDReactNativeTests.a */; };
 		C8B62D62321804523B09D802 /* libPods-CICDReactNative-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 270B7C4B128C912E6AA53612 /* libPods-CICDReactNative-tvOSTests.a */; };
 		E7D98ABFB2590F1901C08DB0 /* libPods-CICDReactNative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F7994916136D28EDC798FA /* libPods-CICDReactNative.a */; };
+		FECF80AC23FE9560000463D9 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = FECF80AB23FE9560000463D9 /* Property List.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		E457DCF9366558C7F29401CC /* libPods-CICDReactNativeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CICDReactNativeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		FECF80AB23FE9560000463D9 /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,7 +163,6 @@
 				DF3A5F7B5D3A0CEAE942F192 /* Pods-CICDReactNativeTests.debug.xcconfig */,
 				7069FDFE50268A82D334F713 /* Pods-CICDReactNativeTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -175,6 +176,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				FECF80AB23FE9560000463D9 /* Property List.plist */,
 				13B07FAE1A68108700A75B9A /* CICDReactNative */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* CICDReactNativeTests */,
@@ -308,6 +310,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -336,6 +339,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FECF80AC23FE9560000463D9 /* Property List.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
