@@ -1,4 +1,4 @@
 # CICDReactNative
+Android: [![Build status](https://build.appcenter.ms/v0.1/apps/a3f6ae18-c5f4-4943-9356-1e5696b81863/branches/dev/badge)](https://appcenter.ms)
+iOS: [![Build status](https://build.appcenter.ms/v0.1/apps/b2734807-e668-4760-8c66-19162f7a8871/branches/dev/badge)](https://appcenter.ms)
 
-Android: [![Build status](https://build.appcenter.ms/v0.1/apps/1445b438-d554-444a-93b1-8e29baf2bca9/branches/dev/badge)](https://appcenter.ms)
-iOS: [![Build status](https://build.appcenter.ms/v0.1/apps/6c2b3770-f6cc-41b1-bde2-5634f48fcedd/branches/dev/badge)](https://appcenter.ms)
